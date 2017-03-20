@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  		<title>
+        	Registrazione
+        </title>
+        
+        <style>
+                
+			.div-centrato
+            	{
+					position:absolute;
+					top:50%;
+					left:50%;
+					margin-top:-250px;
+					margin-left:-450px;
+					width:900px;
+					height:500px;
+				}
+                
+		</style>
+        
+	</head>
+
+	<body>
+    	<center> 
+        	<div class="div-centrato"> <table style="border: 1px solid black;"> <td> 
+                
+                <center>
+                	<h2> Pagina di Registrazione: </h2>
+                </center>
+                        
+ 				<form name="login" action = "ConvalidaRegistrazione.php" method = "POST">
+					
+                    <table>
+                    	<tr>
+                        	<td> ID </td>
+                            <td> <input type="text" name="id" /> </td>
+                        </tr>
+                        
+                        <tr>
+                        	<td> Password </td> 
+                            <td> <input type="password" name="password" /> </td> 
+            			</tr>
+                        
+                        <tr>
+                        	<td> Ripeti Password </td> 
+                            <td> <input type="password" name="ripetiPassword" /> </td>
+                    	</tr>
+                    </table>
+                    
+                    <BR/>
+                    
+                    <center>
+						<input type="submit" value="Registrati"/>
+                    </center>
+                    
+                    <BR/>
+                                
+				</form>
+       		
+            </td> </table> </div>
+        </center>
+	</body>
+</html>
